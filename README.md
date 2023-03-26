@@ -29,7 +29,9 @@ AsTeRICs Grid wird für die Umsetzung der Lichtsteuerung und das Aufrufen eines 
 ### openHAB ( open Home Automation Bus)
 Mit openHAB werden AsTeRICs Programme verknüpft mit dem Ziel der vereinfachten Automatisierung im Smart Home Bereich oder in diesem Fall als barrierefreie Unterstützung für Menschen mit Beeinträchtigungen. OpenHAB dient auch als lokaler Server für die AsTeRICS Anwendungen und wird so gestartet:
 ![Abbildung 8](.github/workflows/openHAB_start.png)
+Dann kann die Seite http://localhost:8080/ geöffnet werden.
 ![Abbildung 9](.github/workflows/openHAB_KitchenItem.png)
+und die Sitemap Demo http://localhost:8080/basicui/app?w=GF_Kitchen&sitemap=demo aufgerufen werden die für die Visualisierung der Funktion Licht An/Aus, Jalousien Hoch/Runter und Temperaturwert anzeigen benötigt wird.
 ![Abbildung 10](.github/workflows/openHAB_UmgebungsUI.png)
 
 ### ACS (AsTeRICs Configuration Suite)
