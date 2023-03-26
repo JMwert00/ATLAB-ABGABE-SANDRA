@@ -40,7 +40,7 @@ und die Sitemap Demo http://localhost:8080/basicui/app?w=GF_Kitchen&sitemap=demo
 ![Abbildung 10](.github/workflows/openHAB_UmgebungsUI.png)
 
 ### ACS (AsTeRICs Configuration Suite)
-Bei der ACS werden Elemente eines GUI in vorgefertigten Programmblöcken programmiert, diese sind in die Kategorien Sensors, Processors and Actuators unterteilt. Durch das Verknüpfen mit der ARE kann das erstellte Modell nutzbar gemacht und ausgeführt werden. Im GUI Editor lässt sich die Anordnung der zur Verfügung stehenden Elemente verändern. 
+Bei der ACS werden Elemente eines GUI in vorgefertigten Programmblöcken programmiert, diese sind in die Kategorien Sensors, Processors and Actuators unterteilt. Durch das Verknüpfen mit der ARE kann das erstellte Modell (siehe Nachtrag ACS) nutzbar gemacht und ausgeführt werden. Im GUI Editor lässt sich die Anordnung der zur Verfügung stehenden Elemente verändern. 
 ![Abbildung 11](.github/workflows/ACS_Systemleiste_connect_to_ARE.png)
 ACS lässt sich mit der ARE verbinden dazu muss die Anwendung ebenfalls gestartet werden und der lokale openHAB Server gestartet worden sein. Wenn das Modell fertig ist kann dieses über "Upload Model" auf die ARE übertragen und ausgeführt werden, es kann aber auch ein sich in der ARE befindende Modell lokal abgesichert werden mit "Download Model".
 ![Abbildung 12](.github/workflows/ACS_GUI.png)
