@@ -19,10 +19,15 @@ Da die Patientin motorisch beeinträchtigt ist wird der mit der Microsoft Sprach
 
 ### AsTeRICs Grid
 AsTeRICs Grid wird für die Umsetzung der Lichtsteuerung und das Aufrufen eines Internetradios für MusikverwendetFür die Umsetzung einer Umgebungssteuerung wird mittels openHAB ein zentraler Server verwendet der es erlaubt die Anwendungen ACS und ARE zu verbinden und in den Grid als auszuführende Aktion einzubinden. Durch das Einbinden eines ACS Modelles können AsTeRICs Aktionen durchgeführt und in openHAB visualisiert werden.
+Layout des Hauptgrids, In AsTeRICS Grid können Zellen angelegt werden,
 ![Abbildung 2](.github/workflows/GRD_Hauptgrid.png)
+Dabei kann der Text frei gewählt werden und auch ein Bild zur Unterstützten Kommunikation herangezogen werden hier ein Beispiel für die Lichtsteuerung:
 ![Abbildung 3](.github/workflows/GRD_Lichtsteuerung.png)
 ![Abbildung 4](.github/workflows/GRD_AsTeRICS_Aktion.png)
+Beim Anklicken der Zelle wird nicht nur das Label z.B. AN ausgesprochen sondern auch eine AsTeRICS Aktion durchgeführt da hier das ACS Demo Modell übergeben wird
 ![Abbildung 5](.github/workflows/GRD_ACS_Einbindung.png)
+kann ein String an openHAB über den String Dispatcher gesendet werden für diesen Fall Item Light_GF_Kitchen_Ceiling ON oder für AUS Item Light_GF_Kitchen_Ceiling OFF.
+In den 2 folgenden Abbildungen wird die Zelle für das Internetradio als Web-Radio Aktion dargestellt.
 ![Abbildung 6](.github/workflows/GRD_Webradio.png)
 ![Abbildung 7](.github/workflows/GRD_Internetradio.png)
 
