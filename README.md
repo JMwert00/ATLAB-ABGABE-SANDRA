@@ -70,4 +70,4 @@ Hier ist das vollständige ACS Modell abgebildet.
 ## Video Doku siehe main
 ## Nachtrag Sehschwäche
 Für Sandras Protanopie wird in den Windows-Einstellungen ein passender Farbfilter eingestellt und bei dem AsTeRICS Grid darauf geachtet kein Rotton zu verwenden.
-![Abbildung 18 Windows_Farbfilter](.github/Farbfilter_WIN.png.png)
+![Abbildung 18 Windows_Farbfilter](.github/Farbfilter_WIN.png)
