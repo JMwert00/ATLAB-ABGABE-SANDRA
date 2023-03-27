@@ -20,31 +20,31 @@ Die Steuerung von Licht Jalousien und dem Internetradio wird mit openHAB verknü
 ### Spracherkennung (Microsoft) 
 
 ![Abbildung 1 Windows_Spracherkennung](.github/workflows/Windows_Spracherkennung.png)
-
+<br />
 
 Da die Patientin motorisch beeinträchtigt ist wird der mit der Microsoft Spracherkennung verwendet um die Maus und Tastatur zu ersetzen. (Befehle Windows Spracherkennung: https://support.microsoft.com/de-de/windows/befehle-der-windows-spracherkennung-9d25ef36-994d-f367-a81a-a326160128c7) 
 Der Befehl "Maus klicken" lässt blendet ein durchnummeriertes Raster mit den Zahlen von 1-9 ein, um den Auswahlbereich einzugrenzen muss man eine Zahl nennen danach wird das Raster kleiner es muss mindestens 3 mal der Bereich eingegrenzt werden um einen Mausklick mit "<Nummer> klicken" durchzuführen.  (siehe Video).
-
+<br />
 ### AsTeRICs Grid
 AsTeRICs Grid wird für die Umsetzung der Lichtsteuerung und das Aufrufen eines Internetradios für MusikverwendetFür die Umsetzung einer Umgebungssteuerung wird mittels openHAB ein zentraler Server verwendet der es erlaubt die Anwendungen ACS und ARE zu verbinden und in den Grid als auszuführende Aktion einzubinden. Durch das Einbinden eines ACS Modelles können AsTeRICs Aktionen durchgeführt und in openHAB visualisiert werden.
-Layout des Hauptgrids, In AsTeRICS Grid können Zellen angelegt werden,
-![Abbildung 2](.github/workflows/GRD_Hauptgrid.png)
-Dabei kann der Text frei gewählt werden und auch ein Bild zur Unterstützten Kommunikation herangezogen werden hier ein Beispiel für die Lichtsteuerung:
-![Abbildung 3](.github/workflows/GRD_Lichtsteuerung.png)
-![Abbildung 4](.github/workflows/GRD_AsTeRICS_Aktion.png)
-Beim Anklicken der Zelle wird nicht nur das Label z.B. AN ausgesprochen sondern auch eine AsTeRICS Aktion durchgeführt da hier das ACS Demo Modell übergeben wird
-![Abbildung 5](.github/workflows/GRD_ACS_Einbindung.png)
+Layout des Hauptgrids, In AsTeRICS Grid können Zellen angelegt werden,<br />
+![Abbildung 2](.github/workflows/GRD_Hauptgrid.png)<br />
+Dabei kann der Text frei gewählt werden und auch ein Bild zur Unterstützten Kommunikation herangezogen werden hier ein Beispiel für die Lichtsteuerung:<br />
+![Abbildung 3](.github/workflows/GRD_Lichtsteuerung.png)<br />
+![Abbildung 4](.github/workflows/GRD_AsTeRICS_Aktion.png)<br />
+Beim Anklicken der Zelle wird nicht nur das Label z.B. AN ausgesprochen sondern auch eine AsTeRICS Aktion durchgeführt da hier das ACS Demo Modell übergeben wird<br />
+![Abbildung 5](.github/workflows/GRD_ACS_Einbindung.png)<br />
 kann ein String an openHAB über den String Dispatcher gesendet werden für diesen Fall Item Light_GF_Kitchen_Ceiling ON oder für AUS Item Light_GF_Kitchen_Ceiling OFF.
-In den 2 folgenden Abbildungen wird die Zelle für das Internetradio als Web-Radio Aktion dargestellt.
-![Abbildung 6](.github/workflows/GRD_Webradio.png)
+In den 2 folgenden Abbildungen wird die Zelle für das Internetradio als Web-Radio Aktion dargestellt.<br />
+![Abbildung 6](.github/workflows/GRD_Webradio.png)<br />
 ![Abbildung 7](.github/workflows/GRD_Internetradio.png)
 
 ### openHAB ( open Home Automation Bus)
-Mit openHAB werden AsTeRICs Programme verknüpft mit dem Ziel der vereinfachten Automatisierung im Smart Home Bereich oder in diesem Fall als barrierefreie Unterstützung für Menschen mit Beeinträchtigungen. OpenHAB dient auch als lokaler Server für die AsTeRICS Anwendungen und wird so gestartet:
-![Abbildung 8](.github/workflows/openHAB_start.png)
-Dann kann die Seite http://localhost:8080/ geöffnet werden.
-![Abbildung 9](.github/workflows/openHAB_KitchenItem.png)
-und die Sitemap Demo http://localhost:8080/basicui/app?w=GF_Kitchen&sitemap=demo aufgerufen werden die für die Visualisierung der Funktion Licht An/Aus, Jalousien Hoch/Runter und Temperaturwert anzeigen benötigt wird.
+Mit openHAB werden AsTeRICs Programme verknüpft mit dem Ziel der vereinfachten Automatisierung im Smart Home Bereich oder in diesem Fall als barrierefreie Unterstützung für Menschen mit Beeinträchtigungen. OpenHAB dient auch als lokaler Server für die AsTeRICS Anwendungen und wird so gestartet:<br />
+![Abbildung 8](.github/workflows/openHAB_start.png)<br />
+Dann kann die Seite http://localhost:8080/ geöffnet werden.<br />
+![Abbildung 9](.github/workflows/openHAB_KitchenItem.png)<br />
+und die Sitemap Demo http://localhost:8080/basicui/app?w=GF_Kitchen&sitemap=demo aufgerufen werden die für die Visualisierung der Funktion Licht An/Aus, Jalousien Hoch/Runter und Temperaturwert anzeigen benötigt wird.<br />
 ![Abbildung 10](.github/workflows/openHAB_UmgebungsUI.png)
 
 ### ACS (AsTeRICs Configuration Suite)
