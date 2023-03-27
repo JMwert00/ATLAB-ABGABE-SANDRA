@@ -17,6 +17,8 @@ Die Steuerung von Licht Jalousien und dem Internetradio wird mit openHAB verknü
 
 ### Spracherkennung (Microsoft) 
 ![Abbildung 1 Windows_Spracherkennung](.github/workflows/Windows_Spracherkennung.png)
+
+
 Da die Patientin motorisch beeinträchtigt ist wird der mit der Microsoft Spracherkennung verwendet um die Maus und Tastatur zu ersetzen. (Befehle Windows Spracherkennung: https://support.microsoft.com/de-de/windows/befehle-der-windows-spracherkennung-9d25ef36-994d-f367-a81a-a326160128c7) 
 Beispiel: Maus klicken danach wird der Bildschirm in ein Raster mit den Zahlen von 1-9 eingeteilt um den Auswahlbereich einzugrenzen soll dann etwas geklickt werden so reicht der Befehl <Nummer> klicken.  (siehe Video).
 
