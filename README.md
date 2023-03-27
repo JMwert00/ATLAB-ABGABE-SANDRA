@@ -7,6 +7,8 @@ Sandra kann beim linken Arm den Daumen und Zeigefinger bewegen sowie einfache Ko
 
 ## Umgesetzte Funktionen
 .) Umgebungssteuerung über Sprachbefehle (Licht (Asterics Grid, openHAB, ACS), Jalousien (openHAB, ACS), Temperatur (ACS)
+
+
 .) Internetradio (Asterics Grid)
 
 ## Verwendete Programme/Komponenten
