@@ -6,10 +6,10 @@ Use-Case Klientin Sandra: Jan Matousek
 Sandra kann beim linken Arm den Daumen und Zeigefinger bewegen sowie einfache Kopfbewegungen durchführen, außerdem kann sie ihre Sprache weiterhin verwenden.
 
 ## Umgesetzte Funktionen
-.) Umgebungssteuerung über Sprachbefehle (Licht (Asterics Grid, openHAB, ACS), Jalousien (openHAB, ACS), Temperatur (ACS)
+1. Umgebungssteuerung über Sprachbefehle (Licht (Asterics Grid, openHAB, ACS), Jalousien (openHAB, ACS), Temperatur (ACS)
 
 
-.) Internetradio (Asterics Grid)
+2. Internetradio (Asterics Grid)
 
 
 
@@ -23,7 +23,7 @@ Die Steuerung von Licht Jalousien und dem Internetradio wird mit openHAB verknü
 
 
 Da die Patientin motorisch beeinträchtigt ist wird der mit der Microsoft Spracherkennung verwendet um die Maus und Tastatur zu ersetzen. (Befehle Windows Spracherkennung: https://support.microsoft.com/de-de/windows/befehle-der-windows-spracherkennung-9d25ef36-994d-f367-a81a-a326160128c7) 
-Beispiel: Maus klicken danach wird der Bildschirm in ein Raster mit den Zahlen von 1-9 eingeteilt um den Auswahlbereich einzugrenzen soll dann etwas geklickt werden so reicht der Befehl <Nummer> klicken.  (siehe Video).
+Der Befehl "Maus klicken" lässt blendet ein durchnummeriertes Raster mit den Zahlen von 1-9 ein, um den Auswahlbereich einzugrenzen muss man eine Zahl nennen danach wird das Raster kleiner es muss mindestens 3 mal der Bereich eingegrenzt werden um einen Mausklick mit "<Nummer> klicken" durchzuführen.  (siehe Video).
 
 ### AsTeRICs Grid
 AsTeRICs Grid wird für die Umsetzung der Lichtsteuerung und das Aufrufen eines Internetradios für MusikverwendetFür die Umsetzung einer Umgebungssteuerung wird mittels openHAB ein zentraler Server verwendet der es erlaubt die Anwendungen ACS und ARE zu verbinden und in den Grid als auszuführende Aktion einzubinden. Durch das Einbinden eines ACS Modelles können AsTeRICs Aktionen durchgeführt und in openHAB visualisiert werden.
@@ -68,3 +68,6 @@ Ausgeführtes ACS Modell in der ARE
 Hier ist das vollständige ACS Modell abgebildet.
 ![Abbildung 17](.github/workflows/ACS_Elements.png)
 ## Video Doku siehe main
+## Nachtrag Sehschwäche
+![Abbildung 18 Windows_Spracherkennung](.github/workflows/Windows_Spracherkennung.png)
+![Abbildung 1 Windows_Spracherkennung](.github/workflows/Windows_Spracherkennung.png)
