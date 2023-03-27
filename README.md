@@ -16,6 +16,7 @@ Microsoft Spracherkennung, Asterics Runtime Environment (ARE), Asterics Configur
 Die Steuerung von Licht Jalousien und dem Internetradio wird mit openHAB verknüpft (ARE ACS und localhost:8080)
 
 ### Spracherkennung (Microsoft) 
+
 ![Abbildung 1 Windows_Spracherkennung](.github/workflows/Windows_Spracherkennung.png)
 
 
