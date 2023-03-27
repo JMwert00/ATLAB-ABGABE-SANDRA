@@ -11,6 +11,8 @@ Sandra kann beim linken Arm den Daumen und Zeigefinger bewegen sowie einfache Ko
 
 .) Internetradio (Asterics Grid)
 
+
+
 ## Verwendete Programme/Komponenten
 Microsoft Spracherkennung, Asterics Runtime Environment (ARE), Asterics Configuration Suite (ACS), Asterics Grid und openHAB.
 Die Steuerung von Licht Jalousien und dem Internetradio wird mit openHAB verknüpft (ARE ACS und localhost:8080)
