@@ -69,5 +69,5 @@ Hier ist das vollständige ACS Modell abgebildet.
 ![Abbildung 17](.github/workflows/ACS_Elements.png)
 ## Video Doku siehe main
 ## Nachtrag Sehschwäche
-![Abbildung 18 Windows_Spracherkennung](.github/workflows/Windows_Spracherkennung.png)
-![Abbildung 1 Windows_Spracherkennung](.github/workflows/Windows_Spracherkennung.png)
+Für Sandras Protanopie wird in den Windows-Einstellungen ein passender Farbfilter eingestellt und bei dem AsTeRICS Grid darauf geachtet kein Rotton zu verwenden.
+![Abbildung 18 Windows_Farbfilter](Farbfilter_WIN.png.png)
